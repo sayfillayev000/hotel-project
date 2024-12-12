@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    height: 320.99px;
+    background-color: #14274a;
+    color: white;
+}
+.footer__card {
+    max-width: 1145px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px 16px;
+}
+.footer__list {
+}
+.footer__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer__item svg {
+    width: 70px;
+}
+.footer__input {
+    display: flex;
+    border: 2px solid #e0b973;
+    border-radius: 10px;
+}
+.footer__input input {
+    background-color: #14274a;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.footer__input button {
+    background-color: #e0b973;
+    padding: 0 30px;
+}

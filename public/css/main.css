@@ -1,0 +1,89 @@
+.background__imgae {
+    background-image: url("/img/main-photo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.card__container {
+    max-width: 1144px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 16px;
+}
+.container__rooms {
+    width: 100%;
+}
+.room__title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #14274a;
+}
+.room__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+    gap: 30px;
+}
+.room__card__left {
+    width: 629px;
+    border-left: 4px solid #14274a;
+    padding-left: 50px;
+}
+.room__subtitle {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+.room__prograf {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.choose__btn {
+    background-color: #e0b973;
+    font-size: 20px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+}
+/* ------------------------------ */
+
+.tafsilotlar {
+    display: flex;
+    justify-content: center;
+}
+.tafsilotlar__card {
+}
+.tafsilotlar__title {
+    font-size: 60px;
+    font-weight: 800;
+    color: #14274a;
+    text-align: center;
+}
+
+.tafsilotlar__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.57px;
+    color: #14274a;
+    text-align: center;
+}
+.tafsilotlar__span {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.tafsilotlar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tafsilotlar__btn button {
+    background-color: #e0b973;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,87 @@
+.background__imgae__room {
+    background-image: url("/img/main-photo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.room__hero {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 180px 16px;
+    color: white;
+}
+.room__hero h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.95px;
+    text-align: left;
+}
+.room__hero h1 {
+    font-size: 154px;
+    font-weight: 700;
+    line-height: 184.8px;
+    letter-spacing: 0.07em;
+    text-align: left;
+}
+.room__hero h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+.room__hero p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.48px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.room__hero .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    background-color: #e0b973;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.room__hero .icon__bottom {
+    display: block;
+    margin: 40px auto;
+    width: 40px;
+}
+.room__price {
+    padding: 50px;
+}
+.room__price__card {
+}
+.room__price__card h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70.78px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.room__price__card p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.3px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.brom {
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+}

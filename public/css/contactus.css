@@ -1,0 +1,39 @@
+.background__imgae__contact {
+    height: 265px;
+    background-color: #14274a;
+}
+.contactus {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 180px 16px;
+}
+.contact__title {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__left span {
+    display: block;
+    font-size: 30px;
+}
+.form__rigth > * {
+    display: block;
+    font-size: 30px;
+    width: 500px;
+}
+.form__button {
+    color: white;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    background-color: #e0b973;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
