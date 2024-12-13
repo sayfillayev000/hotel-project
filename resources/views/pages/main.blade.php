@@ -6,7 +6,7 @@
             style="background-image: url('{{ asset('img/background.png') }}'); height: 100vh;">
             <div class="absolute inset-0 bg-black bg-opacity-50"></div>
             <div class="container mx-auto flex flex-col items-center justify-center h-full text-center relative z-10">
-                <h1 class="text-white text-5xl font-bold mb-4">WELCOME TO<br>LUXURY HOTELS</h1>
+                <h1 class="text-white text-5xl font-bold mb-4">LUXURY HOTELS <br> Xush kelibsiz</h1>
                 <p class="text-white text-lg mb-8">Mehmonxonangizni bron qiling va hashamatdan zavqlaning<br>eng maqbul
                     narxlarda qayta belgilangan.</p>
                 {{-- <a href="#"

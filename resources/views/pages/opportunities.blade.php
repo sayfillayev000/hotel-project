@@ -2,11 +2,11 @@
     <div class="background__imgae__room">
         @include('components.navbar')
         <section class="room__hero">
-            <h2>
-                WELCOME TO
-            </h2>
             <h1>LUXURY</h1>
             <h3>HOTELS</h3>
+            <h2>
+                Xush kelibsiz
+            </h2>
             <p>Mehmonxonangizni bron qiling va hashamatdan zavqlaning
                 eng maqbul narxlarda qayta belgilangan.</p>
             {{-- <button class="start">
@@ -18,8 +18,7 @@
                 <span>BOSHLASH</span>
             </button> --}}
             <button class="icon__bottom">
-                <svg width="63" height="61" viewBox="0 0 63 61" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                <svg width="63" height="61" viewBox="0 0 63 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M31.6673 60.9999C24.5736 60.9938 17.7 58.5565 12.2105 54.1007C6.72103 49.6449 2.95297 43.4446 1.54445 36.5496C0.135919 29.6546 1.17348 22.4887 4.48144 16.2653C7.7894 10.042 13.1645 5.14369 19.6964 2.3999C27.1863 -0.616122 35.5724 -0.587082 43.0409 2.48074C50.5094 5.54856 56.4601 11.4086 59.6062 18.7935C62.7523 26.1785 62.8408 34.4948 59.8527 41.9439C56.8645 49.3931 51.0398 55.3764 43.6383 58.5999C39.8514 60.1905 35.7798 61.0068 31.6673 60.9999ZM19.3425 20.7549L14.2837 25.6549L31.264 42.0999L48.2453 25.6499L43.1865 20.7499L31.264 32.2999L19.3425 20.7549Z"
                         fill="white" />
