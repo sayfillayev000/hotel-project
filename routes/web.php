@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
@@ -12,10 +13,13 @@ Route::middleware('auth')->group(function () {
     Route::get('contactus', [PageController::class, 'contactus'])->name('contactus');
     Route::get('opportunities', [PageController::class, 'opportunities'])->name('opportunities');
     Route::get('brom/{id}', [PageController::class, 'brom'])->name('brom');
+    Route::post('message', [MessageController::class, 'store'])->name('message');
+    Route::get('message', [MessageController::class, 'index'])->name('index')->middleware('role:admin');
 
     Route::get('/admin', [PageController::class, 'admin'])->name('admin')->middleware('role:admin');
-    
+
     Route::post('/process-payment', [PaymentController::class, 'processPayment'])->name('payment.process');
+
 
     Route::get('/dashboard', function () {
         return view('dashboard');

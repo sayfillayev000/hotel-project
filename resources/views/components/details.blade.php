@@ -3,7 +3,7 @@
         <h1 class="tafsilotlar__title">TAFSILOTLAR</h1>
         <h4 class="tafsilotlar__subtitle">"Tinch, sokin, retro - dam olish va zavqlanishning qanday usuli"</h4>
         <h6 class="tafsilotlar__span"> Buyuk Britaniya</span>
-            <div class="tafsilotlar__btn">
+            {{-- <div class="tafsilotlar__btn">
                 <button>
                     <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -21,6 +21,6 @@
                     </svg>
 
                 </button>
-            </div>
+            </div> --}}
     </div>
 </section>

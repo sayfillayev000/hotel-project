@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
-            $table->string('user_id');
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->string('room_id');
             $table->string('start_date');
             $table->string('end_date');

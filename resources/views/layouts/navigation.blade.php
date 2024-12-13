@@ -14,6 +14,16 @@
                         Bosh sahifa
                     </a>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <a href="{{ route('admin') }}" class="mt-5">
+                        Admin
+                    </a>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <a href="{{ route('message') }}" class="mt-5">
+                        Xabatlar
+                    </a>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
@@ -47,7 +57,7 @@
                             <x-dropdown-link :href="route('logout')"
                                 onclick="event.preventDefault();
                                                 this.closest('form').submit();">
-                                {{ __('Log Out') }}
+                                Tizimdan chiqish
                             </x-dropdown-link>
                         </form>
                     </x-slot>
@@ -95,7 +105,7 @@
                     <x-responsive-nav-link :href="route('logout')"
                         onclick="event.preventDefault();
                                         this.closest('form').submit();">
-                        {{ __('Log Out') }}
+                        Tizimdan chiqish
                     </x-responsive-nav-link>
                 </form>
             </div>

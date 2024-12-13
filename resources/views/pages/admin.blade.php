@@ -15,7 +15,7 @@
             <tbody>
                 @forelse ($bookings as $booking)
                     <tr>
-                        <td class="px-4 py-2 border">{{ App\Models\User::find($booking->user_id)?->name }}</td>
+                        <td class="px-4 py-2 border">{{ $booking->user?->name }}</td>
                         <td class="px-4 py-2 border">{{ $booking->room_id }}</td>
                         <td class="px-4 py-2 border">{{ $booking->start_date }}</td>
                         <td class="px-4 py-2 border">{{ $booking->end_date }}</td>

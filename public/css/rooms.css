@@ -75,7 +75,7 @@
 }
 
 .brom {
-    background-color: aqua;
+    background-color: rgb(24, 3, 218);
     padding: 10px 15px;
     border-radius: 10px;
     color: white;
@@ -84,4 +84,5 @@
     cursor: pointer;
     display: block;
     width: 200px;
+    font-size: 30px;
 }

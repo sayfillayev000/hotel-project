@@ -9,8 +9,8 @@
                 <h1 class="text-white text-5xl font-bold mb-4">WELCOME TO<br>LUXURY HOTELS</h1>
                 <p class="text-white text-lg mb-8">Mehmonxonangizni bron qiling va hashamatdan zavqlaning<br>eng maqbul
                     narxlarda qayta belgilangan.</p>
-                <a href="#"
-                    class="bg-yellow-500 text-white text-lg px-6 py-3 rounded-md shadow-lg hover:bg-yellow-600">BOSHLASH</a>
+                {{-- <a href="#"
+                    class="bg-yellow-500 text-white text-lg px-6 py-3 rounded-md shadow-lg hover:bg-yellow-600">BOSHLASH</a> --}}
             </div>
             <div class="absolute bottom-4 w-full text-center">
                 <a href="#" class="text-white text-3xl">&#8595;</a>
@@ -28,7 +28,7 @@
                         sizni dam olish uchun yaratilgan muhitga aylantiramiz.
                         Kundalik uy bilan bog'liq ishlardan voz keching
                         hayot va o'zingiz uchun shaxsiy jannat toping.</p>
-                    <button class="choose__btn">BELGILASH</button>
+                    {{-- <button class="choose__btn">BELGILASH</button> --}}
                 </div>
                 <img src="{{ asset('img/room1.jpg') }}" alt="">
             </div>
@@ -40,7 +40,7 @@
                         cheksiz qumloqlarga kirish imkoniyati bilan okeanga
                         plyaj xotirjam ruhiy holatni ta'minlaydi. Bu
                         go'yo vaqt hali ham ko'rmoqda.</p>
-                    <button class="choose__btn">BELGILASH</button>
+                    {{-- <button class="choose__btn">BELGILASH</button> --}}
                 </div>
                 <img src="{{ asset('img/bassen.jpg') }}" alt="">
             </div>
