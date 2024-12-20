@@ -5,7 +5,8 @@
         <table class="min-w-full bg-white border border-gray-200 w-full">
             <thead>
                 <tr>
-                    <th class="px-4 py-2 border">Foydalanuvchi</th>
+                    <th class="px-4 py-2 border">Ism</th>
+                    <th class="px-4 py-2 border">Telefon</th>
                     <th class="px-4 py-2 border">Xabar</th>
                     <th class="px-4 py-2 border">Yuborilgan vaqti</th>
                 </tr>
@@ -14,6 +15,7 @@
                 @forelse ($messages as $message)
                     <tr>
                         <td class="px-4 py-2 border">{{ $message->user?->name }}</td>
+                        <td class="px-4 py-2 border">{{ $message?->phone }}</td>
                         <td class="px-4 py-2 border">{{ $message->message }}</td>
                         <td class="px-4 py-2 border">{{ $message->created_at->format('Y-m-d H:i:s') }}</td>
                     </tr>

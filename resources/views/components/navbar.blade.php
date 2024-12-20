@@ -1,12 +1,12 @@
 <header class="">
     <div class="container mx-auto flex justify-between items-center px-6">
-        <div class=" font-bold text-xl flex items-center text-white">
+        <div class="font-bold text-xl flex items-center text-white">
             LUXURY
-            <span class=" ml-4">
+            <span class="ml-4">
                 HOTELS
             </span>
         </div>
-        <nav class="flex items-center space-x-6 text-white">
+        <nav class="flex items-center  text-white gap-8" style="gap: 20px">
             <a href={{ route('main') }} class=" ">Asosiy</a>
             <a href={{ route('opportunities') }} class=" ">Imkoniyatlar</a>
             <a href={{ route('room') }} class="">Xonalar</a>

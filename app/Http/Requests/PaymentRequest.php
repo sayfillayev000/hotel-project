@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class MessageRequest extends FormRequest
+class PaymentRequest extends FormRequest
 {
     public function authorize(): bool
     {
@@ -14,8 +14,9 @@ class MessageRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'message' => 'required|string',
-            'phone' => 'required|string'
+            'card_number' => 'required|string|max:16',
+            'expiry_date' => 'required|string',
+            'cvv' => 'required|string|max:3',
         ];
     }
 }

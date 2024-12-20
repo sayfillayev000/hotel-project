@@ -12,8 +12,6 @@ class Payment extends Model
 
     protected $fillable  = [
         'user_id',
-        'start_date',
-        'end_date',
         'room_id',
         'card_number',
         'expiry_date',

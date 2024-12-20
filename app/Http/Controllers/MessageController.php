@@ -18,6 +18,7 @@ class MessageController extends Controller
         try {
             Message::create([
                 'user_id' => Auth::id(),
+                'phone' => $request->phone,
                 'message' => $request->message
             ]);
             return redirect()->back()->with('success', 'Xabaringiz muvaffaqiyatli yuborildi!');

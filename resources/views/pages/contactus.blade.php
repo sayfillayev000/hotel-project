@@ -51,6 +51,8 @@
                 <span> Email: luxury_hotels@gmail.com</span>
             </div>
             <div class="form__rigth">
+                <label for="phone">Telefon raqami</label>
+                <input type="text" name="phone" id="phone" placeholder="+998" value="+998">
                 <label for="message">Xabar</label>
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 <button type="submit" class="form__button">Yuborish</button>
